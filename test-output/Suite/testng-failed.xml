@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.xero.qa.test_cases.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="multipleContactsTest"/>
+          <include name="verifyverifyContactsPagelabelTest"/>
+          <include name="selectcontactsTest"/>
+        </methods>
+      </class> <!-- com.xero.qa.test_cases.ContactsPageTest -->
+      <class name="com.xero.qa.test_cases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyContactslink"/>
+          <include name="verifyuserNameTest"/>
+        </methods>
+      </class> <!-- com.xero.qa.test_cases.HomePageTest -->
+      <class name="com.xero.qa.test_cases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginPageTitleTest"/>
+          <include name="xeroLogoImageTest"/>
+        </methods>
+      </class> <!-- com.xero.qa.test_cases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
